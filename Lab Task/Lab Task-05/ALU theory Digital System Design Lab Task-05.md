@@ -1,4 +1,4 @@
-\# Digital System Design Lab Task-05
+# Digital System Design Lab Task-05
 
 **Design a 4 Bit Arithmetic Logical Unit that can Perform on :-**
 
