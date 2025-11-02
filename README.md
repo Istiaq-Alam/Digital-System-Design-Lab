@@ -96,7 +96,7 @@ If you’re contributing as a team:
 ## 📂 Useful Resources
 - **Proteus Documentation:** [Labcenter Electronics](https://www.labcenter.com/)
 - **Digital Electronics Reference:** M. Morris Mano — *Digital Design*
-- **Logic IC Datasheets:** [Texas Instruments Logic Family](https://www.ti.com/logic-circuits/overview.html)
+- **Logic IC Datasheets:** [Futurlec](https://www.futurlec.com/IC74HC00Series.shtml)
 
 ---
 
