@@ -72,13 +72,12 @@ Each lab folder is self-contained with:
 ## 📘 Lab Topics Covered 
 | Lab No | Title | Key Concept |
 |:------:|:---------------------|:-----------------------------|
-| 01 | Basic Logic Gates | AND, OR, NOT, NAND, NOR, XOR |
-| 02 | Universal Gates | Implementation using NAND/NOR |
-| 03 | Combinational Circuits | Half/Full Adders, Subtractors |
-| 04 | Multiplexers & Demultiplexers | Data routing circuits |
-| 05 | Flip-Flops | SR, D, JK, T Flip-Flops |
-| 06 | Counters & Registers | Sequential circuit design |
-| 07 | FSM Design | Finite State Machines |
+| 01 | Parallel Adder | Implementation using Full Adder |
+| 02 | Universal Shifter | Implementation using D-FlipFlop |
+| 03 | Synchronous Counter | Implementation using T-FlipFlop |
+| 04 | ALU Design [Arithmatic Only] | Implementation using Full Adder |
+| 05 | ALU Design [Arithmatic + Logical] | Implementation using Full Adder |
+
 
 *(I will Add more as I progress through my lab sessions.)*
 
