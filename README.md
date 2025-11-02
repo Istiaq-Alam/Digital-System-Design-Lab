@@ -80,7 +80,7 @@ Each lab folder is self-contained with:
 | 06 | Counters & Registers | Sequential circuit design |
 | 07 | FSM Design | Finite State Machines |
 
-*(Add more as you progress through your lab sessions.)*
+*(I will Add more as I progress through my lab sessions.)*
 
 ---
 
