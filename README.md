@@ -108,8 +108,8 @@ If you’re contributing as a team:
 ## 📅 Course Information
 **Course:** Digital System Design Lab  
 **Department:** Computer Science & Engineering (CSE)  
-**Institution:** [Notre Dame Univaristy Bangladesh]  
-**Semester:** [Fall 2025]
+**Institution:** Notre Dame Univaristy Bangladesh  
+**Semester:** Fall 2025
 
 ---
 
