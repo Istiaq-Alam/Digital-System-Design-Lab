@@ -113,13 +113,14 @@ If you’re contributing as a team:
 
 ---
 
-## 🏁 License
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
-
----
-
 ## 🌐 **Live Documentation :** [Comming Soon..](#)
 ---
+
+## 🏁 License
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+---
+
+
 
 > “Design is not just what it looks like and feels like. Design is how it works.” – *Steve Jobs*
 
