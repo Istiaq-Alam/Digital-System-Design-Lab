@@ -9,46 +9,50 @@ This repository contains Proteus circuit designs, simulation results, test vecto
 ## 🎯 Objectives
 - To design, simulate, and analyze various digital circuits using **Proteus**.
 - To document each lab task with detailed theory, circuit diagrams, waveforms, and conclusions.
-- To maintain a structured and version-controlled record of lab experiments using **GitHub**.
+- To maintain a structured and version-controlled record of lab experiments.
 
 ---
 
 ## 🧱 Repository Structure
 
 ```
-DigiSysLab/
-├─ README.md                  <- This file (repository overview)
+Digital-System-Design-Lab/
+├─ README.md                 
 ├─ .gitignore
-├─ LICENSE (optional)
-├─ templates/
-│  └─ lab_template.md         <- markdown template for new labs
-├─ assets/                    <- shared images, icons, and diagrams
-└─ labs/
-   ├─ 01-logic-gates/
-   │  ├─ README.md            <- lab report using the template
-   │  ├─ proteus/             <- Proteus design and schematic files
-   │  ├─ sims/                <- simulation waveforms or animations
-   │  └─ code/                <- Verilog/Arduino/Assembly code if any
-   ├─ 02-flipflops/
-   │  ├─ README.md
-   │  └─ ...
-   └─ ...
+├─ LICENSE 
+├─ Lab Task/
+ ├─ 01-logic-gates/
+ │  ├─ README.md            
+ │  ├─ proteus/             
+ │  ├─ sims/                             
+ ├─ 02-flipflops/
+ │  ├─ README.md
+ │  └─ ...
+ └─ ...                
+└─ Lab Test/
+ ├─ Lab Test-01/
+ │  ├─ README.md           
+ │  ├─ proteus/            
+ │  ├─ sims/              
+ ├─ Lab Test-02/
+ │  ├─ README.md
+ │  └─ ...
+ └─ ...  
 ```
 
 Each lab folder is self-contained with:
 - `proteus/` → Circuit design files (`.pdsprj`, `.psd`, `.png`)
 - `sims/` → Simulation outputs, timing diagrams, and waveform captures
-- `code/` → Supporting code or logic implementation (if applicable)
-- `README.md` → The detailed documentation of the lab (using the provided template)
-
+- `code/` → Supporting code or logic implementation 
+- `README.md` → The detailed documentation of the lab 
 ---
 
 ## 🧪 How to Add a New Lab
 
-1. Create a new folder inside `labs/` using the naming format: `NN-lab-name` (e.g., `03-multiplexer`).
+1. Create a new folder inside `Lab Task/` using the naming format: `Lab Task-NN` (e.g., `Lab Task-02`).
 2. Copy the `templates/lab_template.md` into that folder and rename it to `README.md`.
 3. Add your **Proteus** project files inside `proteus/`.
-4. Export schematic and simulation screenshots into respective folders.
+4. Export schematic and simulation screenshots into `sims/` folders.
 5. Fill in all required details (objectives, theory, results, etc.) in the new `README.md`.
 6. Commit your work with a clear message:
    ```bash
@@ -61,13 +65,11 @@ Each lab folder is self-contained with:
 
 ## 🧰 Tools and Technologies Used
 - **Proteus Design Suite** — Circuit simulation and schematic design
-- **Git & GitHub** — Version control and online documentation
-- **Markdown (.md)** — For lab documentation formatting
-- **Optional:** Verilog / Assembly / Arduino IDE — For programmable circuits
+
 
 ---
 
-## 📘 Lab Topics Covered (Examples)
+## 📘 Lab Topics Covered 
 | Lab No | Title | Key Concept |
 |:------:|:---------------------|:-----------------------------|
 | 01 | Basic Logic Gates | AND, OR, NOT, NAND, NOR, XOR |
@@ -85,7 +87,7 @@ Each lab folder is self-contained with:
 ## 💡 Contribution Guidelines
 If you’re contributing as a team:
 1. Fork the repository.
-2. Create a feature branch for your lab: `feature/lab-05`.
+2. Create a feature branch for your lab: `feature/DSD-Lab-01`.
 3. Commit your changes with clear messages.
 4. Open a Pull Request for review.
 
@@ -98,19 +100,17 @@ If you’re contributing as a team:
 
 ---
 
-## 👨‍💻 Authors / Team Members
-- **Name 1** — Student ID, Department
-- **Name 2** — Student ID, Department
+## 👨‍💻 Authors 
+- **Istiaq Alam**, Department of CSE, Notre Dame Univarsity Bangladesh
 
-*(Edit this section with your team details.)*
 
 ---
 
 ## 📅 Course Information
 **Course:** Digital System Design Lab  
 **Department:** Computer Science & Engineering (CSE)  
-**Institution:** [Your University Name]  
-**Semester:** [e.g., Fall 2025]
+**Institution:** [Notre Dame Univaristy Bangladesh]  
+**Semester:** [Fall 2025]
 
 ---
 
@@ -119,10 +119,7 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 ---
 
-## 🌐 Repository Links
-- **Live Documentation (GitHub Pages):** [View Labs](#)
-- **Main Repository:** [GitHub Repo Link](#)
-
+## 🌐 **Live Documentation (GitHub Pages):** [View Labs](#)
 ---
 
 > “Design is not just what it looks like and feels like. Design is how it works.” – *Steve Jobs*
