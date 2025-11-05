@@ -1,6 +1,6 @@
 # Digital System Design Lab Task-04
-**Design a 4 Bit Arithmetic Logical Unit that can Perform on :-**
-```bash
+## Design a 4 Bit Arithmetic Logical Unit that can Perform on - 
+## Truth Table : 
 ===============================================================
 | S2  S1  S0 | Cin |  X   Y  | Functions                      |
 ===============================================================
@@ -14,4 +14,9 @@
 | 0    1   1 |  1  |  A  al1 | Transfer with Carry            |
 ===============================================================
 ```
-*Lab Test in next Lab*
+## Function : 
+```bash
+
+```
+
+## Circuit in Proteus : 
