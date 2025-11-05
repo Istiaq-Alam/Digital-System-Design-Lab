@@ -20,3 +20,4 @@
 ```
 
 ## Circuit in Proteus : 
+<img width="1229" height="860" alt="image" src="https://github.com/user-attachments/assets/92191728-abfd-4f06-9977-a720a7143aa4" />
