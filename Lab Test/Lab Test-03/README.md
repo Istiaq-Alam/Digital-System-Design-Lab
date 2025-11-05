@@ -1,17 +1,16 @@
 # Design of 4 Bit Arithmetic Logical Unit that can Perform - 
 ## Truth table :
-```bash
-===============================================================
-| S2  S1  S0 | Cin |  X   Y  | Functions                      |
-===============================================================
-| 0    0   0 |  1  |  0   B  | Increment B → B+1              |
-| 0    0   1 |  0  |  0   B  | Transfer B → B                 |
-| 0    1   0 |  1  |  A   B' | Subtraction → A-B              |
-| 0    1   1 |  0  |  A   B' | Subtraction with Borrow → A-B-1|
-| 1    0   0 |  x  |  A   B  | A XOR B                        |
-| 1    0   1 |  x  |  A   B' | A XNOR B                       |
-===============================================================
-```
+
+
+| S2 | S1  | S0 | Cin |  X  |  Y  | Functions                      |
+|:--:|:---:|:---:|:----:|:--:|:--|:-------------------------------|
+| 0  |  0  |  0  |  1  |  0  |  B  | Increment B → B+1              |
+| 0  |  0  |  1  |  0  |  0  |  B  | Transfer B → B                 |
+| 0  |  1  |  0  |  1  |  A  |  B' | Subtraction → A-B              |
+| 0  |  1  |  1  |  0  |  A  |  B' | Subtraction with Borrow → A-B-1|
+| 1  |  0  |  0  |  x  |  A  |  B  | A XOR B                        |
+| 1  |  0  |  1  |  x  |  A  |  B' | A XNOR B                       |
+
 
 ## Functions : 
 ```bash
