@@ -8,8 +8,8 @@
 | 0  |  0  |  1  |  0  |  0  |  B  | Transfer B → B                 |
 | 0  |  1  |  0  |  1  |  A  |  B' | Subtraction → A-B              |
 | 0  |  1  |  1  |  0  |  A  |  B' | Subtraction with Borrow → A-B-1|
-| 1  |  0  |  0  |  x  |  A  |  B  | A XOR B  / A ⊕ B                      |
-| 1  |  0  |  1  |  x  |  A  |  B' | A XNOR B / (A ⊕ B)'                     |
+| 1  |  0  |  0  |  x  |  A  |  B  | A XOR B  → A ⊕ B                      |
+| 1  |  0  |  1  |  x  |  A  |  B' | A XNOR B → (A ⊕ B)'                     |
 
 
 ## Functions : 
