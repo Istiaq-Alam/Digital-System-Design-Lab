@@ -5,49 +5,28 @@
 ```bash
 
 ===============================================================
-
 | S2  S1  S0 | Cin |  X   Y  | Functions                      |
-
 ===============================================================
-
 | 0    0   0 |  0  |  A   0  | Transfer A → A                 |
-
 | 0    0   0 |  1  |  A   0  | Increment A → A+1              |
-
 | 0    0   1 |  0  |  A   B  | Addition → A+B                 |
-
 | 0    0   1 |  1  |  A   B  | Addition with Carry → A+B+1    |
-
 | 0    1   0 |  0  |  A   B' | Subtraction with Borrow → A-B-1|
-
 | 0    1   0 |  1  |  A   B' | Subtraction → A+B'+1           |
-
 | 0    1   1 |  0  |  A  al1 | Decrement A → A-1              |
-
 | 0    1   1 |  1  |  A  al1 | Transfer with Carry            |
-
 | 1    0   0 |  x  | A+B  0  | A OR B                         |
-
 | 1    0   1 |  x  |  A   B  | A XOR B                        |
-
 | 1    1   0 |  x  | A+B' B' | A AND B                        |
-
 | 1    1   1 |  x  |  A  al1 | NOT  A                         |
-
 ===============================================================
-
 ```
 
 **Functions :** 
-
 ```bash
-
 x = A + S2⋅S0'⋅(S1⊕B)
-
 y = S0⋅B+S1⋅B'
-
 z = S2'⋅Cin
-
 ```
 
 *Lab Test in next Lab*
