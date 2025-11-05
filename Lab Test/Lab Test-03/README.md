@@ -1,4 +1,5 @@
-**Truth table of 4 Bit Arithmetic Logical Unit that can Perform on :-**
+# Design of 4 Bit Arithmetic Logical Unit that can Perform - 
+## Truth table :
 ```bash
 ===============================================================
 | S2  S1  S0 | Cin |  X   Y  | Functions                      |
@@ -27,3 +28,5 @@ CF = (F3 ⋅ F2 ⋅ F1 ⋅ F0)'
 OF = S2' ⋅ Cout
 ZF = (C3 ⊕ Cout) ⋅ S2'
 ```
+## Circuit in Proteus : 
+<img width="1077" height="740" alt="image" src="https://github.com/user-attachments/assets/a8f68b0b-d774-49b5-a9bc-d8b1095b70c4" />
