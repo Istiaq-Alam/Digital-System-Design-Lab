@@ -1,4 +1,4 @@
-# 🧪 Lab-02 — 3 bit Universal Shift Register with 4 Operation
+# 🧪 Lab-02 — 3 bit Universal Shift Register with 8 Operation
 
 **Course:** Digital System Design Lab  
 **Performed on:** 10-08-25  
@@ -30,29 +30,34 @@ There Are 3 types of Shifters -
 | Proteus | Simulation Software | — |
 
 ---
+## Operation Table : 
+**Design of a 4 Bit Universal Shift Register that can Perform on :-**
+
+
+| S2 | S1 | S0 | Operations       |
+|:--:|--:|:--:|:-----------------|
+| 0  |  0  | 0  | Data Hold        |
+| 0  |  0  | 1  | Parallel Trasfer |
+| 0  |  1  | 1  | Left Shift       |
+| 0  |  1  | 1  | Transfer all 0   |
+| 1  |  0  | 0  | Transfer all 1   |
+| 1  |  0  | 1  | Data Hold        |
+| 1  |  1  | 0  | Right Shift      |
+| 1  |  1  | 1  | Data Hold        |
+
 
 ## 🧩 Circuit Diagram
-Insert your Proteus schematic image here:
+<img width="1751" height="909" alt="image" src="https://github.com/user-attachments/assets/0f5e3e59-4754-441c-a684-a85a0d49b66e" />
 
-![Circuit Diagram](proteus/images/schematic.png)
 
-*Explain your circuit briefly: how the inputs and outputs are connected, which ICs are used, etc.*
 
 ---
 
-## 🔍 Simulation / Test Results
-Provide screenshots or tables showing observed output.
-
-### Test Table
-| Test No | Inputs | Expected Output | Observed Output | Status |
-|:--------:|:-------|:----------------|:----------------|:--------|
-| 1 | A=0, B=0 | Y=0 | Y=0 | ✅ |
-| 2 | A=0, B=1 | Y=1 | Y=1 | ✅ |
 
 ---
 
 ## 📊 Observations
-Mention your key observations:
+ key observations:
 - Propagation delay observed: 500ms
 - Power supply: 5V DC
 - Gate response: stable with minor glitches
