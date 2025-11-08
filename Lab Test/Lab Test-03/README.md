@@ -1,4 +1,4 @@
-# Design of 4 Bit Arithmetic Logical Unit that can Perform - 
+# Design of 4 Bit Arithmetic Logic Unit that can Perform - 
 ## Truth table :
 
 
