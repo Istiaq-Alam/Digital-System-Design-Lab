@@ -25,7 +25,7 @@ F = F3 F2 F1 F0
 SF = F3
 CF = S2' ⋅ Cout 
 OF = (C3 ⊕ Cout) ⋅ S2'
-ZF = (F3 ⋅ F2 ⋅ F1 ⋅ F0)'
+ZF = (F3 + F2 + F1 + F0)'
 ```
 ## Circuit in Proteus : 
 
