@@ -14,7 +14,7 @@
 
 ## Functions : 
 ```bash
-x = A ⋅ (S2 + S1)
+x = A ⋅ (S2 ⊕ S1)
 y = B ⊕ [ S1 + (S2 ⋅ S0) ]
 z = S2' ⋅ Cin        
 F = F3 F2 F1 F0
@@ -25,7 +25,8 @@ F = F3 F2 F1 F0
 SF = F3
 CF = S2' ⋅ Cout 
 OF = (C3 ⊕ Cout) ⋅ S2'
-ZF = (F3 ⋅ F2 ⋅ F1 ⋅ F0)'
+ZF = (F3 + F2 + F1 + F0)'
 ```
 ## Circuit in Proteus : 
-<img width="1077" height="740" alt="image" src="https://github.com/user-attachments/assets/a8f68b0b-d774-49b5-a9bc-d8b1095b70c4" />
+
+<img width="1238" height="780" alt="circuit" src="https://github.com/user-attachments/assets/8cb8a9df-e594-4050-a104-d798dc03b11a" />
