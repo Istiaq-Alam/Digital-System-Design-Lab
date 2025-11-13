@@ -6,7 +6,7 @@ This repository contains Proteus circuit designs, simulation results, test vecto
 
 ---
 
-## 🎯 Objectives
+## 🎯 Objectives   
 - To design, simulate, and analyze various digital circuits using **Proteus**.
 - To document each lab task with detailed theory, circuit diagrams, waveforms, and conclusions.
 - To maintain a structured and version-controlled record of lab experiments.
